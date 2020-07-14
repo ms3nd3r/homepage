@@ -1,0 +1,26 @@
+.title{
+    color: red;
+    font-size: 20px;
+    text-align:center;
+}
+
+body {
+    background-color: aqua;
+}
+
+.main{
+    background-color: bisque;
+    padding: 10px;
+    margin: 60px;
+}
+
+.counter{
+    background-color: bisque;
+    text-align:center;
+    padding: 10px;
+    margin: 60px;
+}
+
+.profile{
+    border-bottom:solid 5px #000000;
+}
