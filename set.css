@@ -6,12 +6,14 @@
 
 body {
     background-color: aqua;
+    color: #000000;
 }
 
-.main{
+#main{
     background-color: bisque;
     padding: 10px;
     margin: 60px;
+    text-align:center;
 }
 
 .counter{
