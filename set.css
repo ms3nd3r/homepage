@@ -26,3 +26,10 @@ body {
 .profile{
     border-bottom:solid 5px #000000;
 }
+
+#UPDATE{
+    background-color: #f0e68c;
+    padding: 10px;
+    margin: 60px;
+    text-align:left;
+}
