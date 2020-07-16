@@ -1,4 +1,4 @@
-.title{
+#title{
     color: red;
     font-size: 20px;
     text-align:center;
@@ -16,7 +16,7 @@ body {
     text-align:center;
 }
 
-.counter{
+#counter{
     background-color: bisque;
     text-align:center;
     padding: 10px;
@@ -32,4 +32,9 @@ body {
     padding: 10px;
     margin: 60px;
     text-align:left;
+}
+
+#update h3{
+    text-align:center;
+    font-size: large;
 }
