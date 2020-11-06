@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけん！</title>
+    <script>
+    function battle(a,b){
+        n = a - b
+        if(n == -1 || n == 2){              //パー(2)とグー(0)のときなど、勝利した時の処理
+            return message = 'あなたの勝ちです！';
+        }else if(n == 0){
+            return message = 'あいこです！'     //パー(2)同士のときなど、勝利した時の処理
+        }else{
+            return message = 'あなたは負けました…'//グー(0)とパー(2)のときなど、敗北した時の処理
+        }
+    }
+    var myhand = Math.floor(Math.random()*3);
+    console.log(myhand) 
+        if(myhand == 0){
+            myresult = 'グー！';
+        }else if(myhand == 1){
+            myresult = 'チョキ！';
+        }else{
+            myresult = 'パー！';
+        }
+    document.write('あなたの手は'+myresult);
+    var enemyhand = Math.floor(Math.random()*3);
+    console.log(enemyhand) 
+        if(enemyhand == 0){
+            enemyresult = 'グー！';
+        }else if(enemyhand == 1){
+            enemyresult = 'チョキ！';
+        }else{
+            enemyresult = 'パー！';
+        }
+    document.write('相手の手は'+enemyresult);
+    battle(myhand,enemyhand);
+    document.write('<br>'+message);
+    </script>
+</head>
+<body>
+    <a href="index.html">もう一回！</a>
+</body>
+</html>
