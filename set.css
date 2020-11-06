@@ -1,0 +1,40 @@
+#title{
+    color: red;
+    font-size: 20px;
+    text-align:center;
+}
+
+body {
+    background-image:url(img/background.jpg);
+    color: #000000;
+}
+
+#main{
+    background-color: bisque;
+    padding: 10px;
+    margin: 60px;
+    text-align:center;
+}
+
+#counter{
+    background-color: bisque;
+    text-align:center;
+    padding: 10px;
+    margin: 60px;
+}
+
+/*.profile{
+    border-bottom:solid 5px #000000;
+}後程つくりやす*/
+
+#update{
+    background-color: #f0e68c;
+    padding: 10px;
+    margin: 60px;
+    text-align:left;
+}
+
+#update h3{
+    text-align:center;
+    font-size: large;
+}
