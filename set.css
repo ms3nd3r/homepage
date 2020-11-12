@@ -23,9 +23,19 @@ body {
     margin: 60px;
 }
 
-/*.profile{
-    border-bottom:solid 5px #000000;
-}後程つくりやす*/
+#profile{
+    border-bottom:solid 5px #000000;    
+    background-color: bisque;
+    padding: 20px;
+    margin: 100px;
+    text-align:left;
+}
+
+#link{
+    background-color: aquamarine;
+    margin: 100px;
+    padding: 20px;
+}
 
 #update{
     background-color: #f0e68c;
@@ -43,5 +53,5 @@ footer{
     background-color: #e0ffff;
     padding: 10px;
     margin-top: 60px;
-    text-align:left;
+    text-align:center;
 }
